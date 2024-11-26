@@ -18,6 +18,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '17'
+          distribution: 'temurin'
 
       - name: Compile the project
         run: javac -d problema2/bin problema2/src/restaurante/*.java
